@@ -1,0 +1,16 @@
+package Saturday;
+import java.util.Scanner;
+public class character {
+public static void main(String[]args)
+{
+char a1,b1;
+Scanner in=new Scanner(System.in);
+a1=in.next().charAt(0);
+b1=in.next().charAt(0);
+if(a1<=b1)	
+System.out.println("if first character is "+a1+" and second is "+b1);
+else
+System.out.println("if first character is "+ b1+" and second  is   "+a1);
+	}
+	
+	}
